@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAT112</title>
+    <link rel="stylesheet" href="../stylesheet/data.css">
+    <header>
+        <link rel="icon" href="image/fut1.jpg">
+        <img src="image/Futminna_logo.jpg" alt="school logo" width="100%" height="20%">
+    </header>
+</head>
+<body>
+    <a target="_blank" href="calculator.html">CALCULATOR</a><br>
+    <p id="demo"></p>
+    <script>
+       
+        let time = 30 * 60;
+        const countDown = setInterval(() =>{
+            const minutes = Math.floor(time/60);
+            const seconds = time % 60;
+
+            console.log(${minutes} minutes $ {seconds} seconds);
+            time--;
+            if(time <=0 ){
+                clearInterval(countDown);
+                console.log("Time's up");
+            } 
+            }. 1000);   
+    </script>
+   
+   <p> 1. What are the fundamental design concepts and principles in object-oriented
+programming?<br> <p>Choose the correct </p>
+
+<div id="main">
+    <input type="checkbox" required><label for="">Procedural, functional, and object-oriented</label><br> 
+   
+   <br> <input type="checkbox" required><label for="">Encapsulation, inheritance, and polymorphism</label><br>
+
+   <br><input type="checkbox" required> <label for="">Syntax, classes, and objects</label><br>
+    
+   <br><input type="checkbox" required> <label for="">Compiler, linker, and machine language</label> 
+</div>
+</p>
+    <nav>
+    <div id="box">
+    <button>Next </button>
+        </div></nav>
+</body>
+</html>

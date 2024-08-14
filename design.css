@@ -1,0 +1,45 @@
+header{
+     border: none;
+    text-align: center;
+    padding: none;
+    gap: none;
+    }
+#box{
+    border: 1px solid;
+    background-image: ;
+}
+body{
+    background-image: url("../html/image/min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    text-align: justify;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: left;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    text-align: center;
+    font-size: 2em;
+    justify-content: center;
+    display: block;
+
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+}
+button:hover{
+    background-color: purple;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
